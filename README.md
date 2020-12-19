@@ -46,7 +46,7 @@ like first two div containers i changed with
    * >[stack**overflow**](https://stackoverflow.com/)
 
 ## Directory:
-   * >[Horiseon Website](https://victorcodrean.github.io/1_HW_code_refactor/)
+   * >["deployed" Horiseon Website](https://victorcodrean.github.io/1_HW_code_refactor/)
    * >[GitHub repository link](https://github.com/VictorCodrean/1_HW_code_refactor)
 
 ## Note
