@@ -19,8 +19,9 @@ body {
     color: #ffffff;
 }
 
-/* the value _inline-block_ of property display allows us to have more elements on the same line, so
-the next elements don't go bellow the _occupied line_...*/
+/* since the default  display value of _h1_ is set to block and it will take the entire line of page...
+ we have to change it to value _inline-block_ that allows us to have more block elements on the 
+ same line, so the next elements (in our case links from nav bar) don't go bellow the _occupied line_...*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -30,8 +31,8 @@ the next elements don't go bellow the _occupied line_...*/
     color: #d9dcd6;
 }
 
-/* the float makes element to positioning around the page, our case on the right side */
-.header nav {               /*I had to change div attribute with the related one*/
+/* the float property help us to position elements around the page, our case on the right side */
+.header nav {               /*I had to change div attribute with the related one - _nav_*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -58,7 +59,7 @@ a {
 
  /* A hover when mouse on top on the respective link... */
 a:hover {          
-    background-color: purple;
+    color: purple;
   }
 
 p {
@@ -70,6 +71,13 @@ p {
     width: 100%;
     margin-bottom: 25px;
     background-position: center;
+}
+
+/* the element to be no more than 75% to have last space for aside bar...*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 /* the element should float on left side*/
@@ -85,14 +93,9 @@ p {
     margin-left: 25px;
 }
 
-/* the element to be no more than 75% to have last space for aside bar...*/
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
-/* properties for main contet */
+
+/* properties for aside content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
